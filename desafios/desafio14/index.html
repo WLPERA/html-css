@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,85 +12,76 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
     }
+
     table {
         border-collapse: collapse;
     }
-    
-    caption{
+
+    caption {
         font-size: 1.3em;
         font-weight: bold;
-        padding:10px;
+        padding: 10px;
 
     }
 
-    th,td {
-        border : 1px solid gray;
-        padding:10px;
+    th,
+    td {
+        border: 1px solid gray;
+        padding: 10px;
 
     }
 </style>
+
 <body>
-    <h1>Exercício de Tabelas</h1>
+    <h1>Desafio 14</h1>
     <table>
         <caption>
-        Filmes Favoritos
+            Boletim
         </caption>
         <thead>
             <tr>
-                <th>Nomes</th>
-                <th>Filme 1 </th>
-                <th>Filme 2</th>           
-                <th>Filme 3</th>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas </th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
             </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+
         </thead>
 
         <tbody>
             <tr>
-                <td>Ana Maria Santos</td>
-                <td>Alien</td>
-                <td>Rambo</td>
-                <td>Vingadores</td>
+                <td rowspan="4">Exatas</td>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
-
             <tr>
-                <td>Beatriz Souza</td>
-                <td>Hulk</td>
-                <td>Inception</td>
-                <td>Batman</td>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
-
             <tr>
-                <td>Claudia Melo</td>
-                <td>Oblivion</td>
-                <td>Matrix</td>
-                <td>Big Hero</td>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
-
             <tr>
-                <td>Bruno Mendonça</td>
-                <td>Intocáveis</td>
-                <td>Amnésia</td>
-                <td>Vingadores</td>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
-
-            <tr>
-                <td>Daniel Lourenço</td>
-                <td>Wall-e</td>
-                <td>Old Boy</td>
-                <td>Dangal</td>
-            </tr>
-
-            <tr>
-                <td>Fabiano Mota</td>
-                <td>Star Wars 5</td>
-                <td>Taxi Driver</td>
-                <td>Toy Story</td>
-            </tr>
-
-
         </tbody>
- 
+
     </table>
-    
+
 </body>
+
 </html>
